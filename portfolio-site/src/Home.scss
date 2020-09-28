@@ -1,0 +1,55 @@
+.home {
+  background-image: url("./assets/image/home-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.eyecatch {
+  color: white;
+  height: 600px;
+}
+
+.eyecatch-text {
+  font-size: x-large;
+  float: left;
+  padding: 20% 0 0 10%;
+  h1 {
+    padding: 10%;
+  }
+}
+
+.item {
+  img {
+    width: 70%;
+    max-width: 650px;
+    overflow: hidden;
+    transition:0.3s all;
+    &:hover {
+      width: 60%;
+      overflow: hidden;
+      transform:scale(1.1,1.1);
+    }
+  }
+  h2 {
+    padding-bottom: 3%;
+  }
+}
+
+.profile-card {
+  width: 70%;
+  border-radius: 50px;
+  margin: 0 auto;
+  padding: 5%;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    border-radius: 30%;
+  }
+}
+
+.profile-text {
+  padding: 0 10%;
+}
